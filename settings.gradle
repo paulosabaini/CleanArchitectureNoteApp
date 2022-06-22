@@ -8,3 +8,5 @@ dependencyResolutionManagement {
 }
 rootProject.name = "CleanArchitectureNoteApp"
 include ':app'
+include ':feature_note'
+include ':core'
