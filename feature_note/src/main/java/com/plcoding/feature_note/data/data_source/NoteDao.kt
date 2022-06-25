@@ -8,6 +8,9 @@ import androidx.room.Query
 import com.plcoding.feature_note.domain.model.Note
 import kotlinx.coroutines.flow.Flow
 
+/*
+* The dao could be moved to the core module with the database
+* */
 @Dao
 interface NoteDao {
 

@@ -11,9 +11,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.CleanArchitectureNoteApp">
         <activity
+            android:theme="@style/Theme.CleanArchitectureNoteApp"
             android:name=".MainActivity"
-            android:exported="true"
-            android:theme="@style/Theme.CleanArchitectureNoteApp">
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

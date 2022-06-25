@@ -4,6 +4,9 @@ import androidx.room.Entity
 import androidx.room.PrimaryKey
 import com.plcoding.core.presentation.ui.theme.*
 
+/*
+* An separate database entity class could be created in the data package
+* */
 @Entity
 data class Note(
     val title: String,

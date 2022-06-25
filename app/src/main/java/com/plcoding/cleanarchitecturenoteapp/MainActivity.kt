@@ -10,12 +10,15 @@ import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
 import androidx.navigation.navArgument
-import com.plcoding.core.presentation.ui.theme.CleanArchitectureNoteAppTheme
+import com.plcoding.cleanarchitecturenoteapp.ui.theme.CleanArchitectureNoteAppTheme
 import com.plcoding.feature_note.presentation.add_edit_note.AddEditNoteScreen
 import com.plcoding.feature_note.presentation.notes.NotesScreen
 import com.plcoding.feature_note.presentation.util.Screen
 import dagger.hilt.android.AndroidEntryPoint
 
+/*
+* The nav graph could also be located in each feature
+* */
 @AndroidEntryPoint
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

@@ -3,7 +3,9 @@ package com.plcoding.core.presentation.components
 import androidx.compose.material.Text
 import androidx.compose.runtime.Composable
 
-// Example composable to represent the usage of the core module
+/*
+* This represents the creation of composables that could be reused in multiple features
+* */
 @Composable
 fun Example() {
     Text("Example")

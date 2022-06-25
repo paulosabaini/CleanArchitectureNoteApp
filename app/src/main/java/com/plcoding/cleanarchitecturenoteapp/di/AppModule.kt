@@ -12,6 +12,9 @@ import dagger.hilt.InstallIn
 import dagger.hilt.components.SingletonComponent
 import javax.inject.Singleton
 
+/*
+* The hilt module could also be located in each feature
+* */
 @Module
 @InstallIn(SingletonComponent::class)
 object AppModule {
