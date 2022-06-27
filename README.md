@@ -18,17 +18,16 @@ the core modules that they require.
 need to be shared between other modules in the app. These modules can depend on other core modules, 
 but they shouldn’t depend on feature nor app modules.
 
-How Clean Architecture is structured:
+Each feature and core module is structured with the Clean Architecture approach, containing three main 
+packages: `data`, `domain`, and `presentation`.
 
-Each feature contain three packages, `data`, `domain`, and `presentation`.
-
-The `data` package contain the implementation of data sources, like a Room database or Retrofit API, 
+The `data` package contains the data sources, like a Room database, Retrofit API, Firebase or DataStore 
 and the implementation of the repositories.
 
-The `domain` package contain business logic code including the definition of the models, the repositories 
-interfaces and most important, the use cases.
+The `domain` package contains business logic code including the definition of the models, the repositories 
+interfaces and the most important, the use cases.
 
-The `presentation` package contain all the screens and ViewModels
+The `presentation` package contains all the screens and ViewModels.
 
 ## Learning Resources
 
